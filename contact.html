@@ -1,0 +1,65 @@
+<!doctype html>
+<html><head>
+		
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400i" rel="stylesheet"> 
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="Web aplikacije">
+		<meta name="author" content="Robert Pandža">
+        <meta name="keywords" content="HTML, CSS, Web, Aplikacije, ...">
+		<title>Contact</title>
+	</head>
+<body>
+	<header>
+		<div class="banner-image" style=""></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="projects.html">Projects</a></li>   
+			  <li><a href="contact.html">Contact</a></li>
+			  <li><a href="about.html">About</a></li>
+			  <li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+        <h1>Contact Forma </h1>                <iframe src="https://maps.google.com/maps?q=Radni%C4%8Dka%20cesta%20220a%20Zagreb&t=&z=13&ie=UTF8&iwloc=&output=embed" width="800" height="600" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+        <div id="contact">
+                <form action="" id="contact_form" name="contact_form" method="POST">
+                    <label for="fname">First Name *</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required="">
+    
+                    <label for="lname">Last Name *</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required="">
+                    
+                    <label for="lname">Your E-mail *</label>
+                    <input type="email" id="email" name="email" placeholder="Your e-mail.." required="">
+    
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="">Please select</option>
+                      <option value="AT">Austria</option>                                                                                                                                   
+                      <option value="HR" selected="">Croatia</option>
+                      <option value="BiH">Bosnia and Herzegovina</option>
+                      <option value="HU">Hungary</option>
+                    </select>
+    
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Pitanja?.." style="height:200px"></textarea>
+    
+                    <input type="submit" value="Submit">
+                    <br>
+                    <input type="submit" value="Odustani" href="index.html">
+                    <h2>* OBVEZNA POLJA</h2>
+                </form>
+            </div>
+		
+	</main>
+	<footer>
+		<p>Copyright © 2020 Robert Pandža</p>
+	</footer>
+
+
+</body></html>
